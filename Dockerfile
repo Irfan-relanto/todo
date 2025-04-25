@@ -50,7 +50,7 @@ COPY . .
 RUN chown -R dockeruser:dockeruser /todo-app
 
 # Expose your app's port
-EXPOSE 8080
+EXPOSE 8089
 
 # Run the app
 CMD ["python3", "main.py"]
